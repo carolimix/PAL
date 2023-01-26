@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "ABC Whyte Inktrap Mono Trial";
+  src: local(" "), url(assets/ABCWhyteInktrapMono-Regular-Trial.woff),
+    url(assets/ABCWhyteInktrapMono-Regular-Trial.woff2),
+    url(assets/ABCWhyteInktrapMono-RegularItalic-Trial.woff),
+    url(assets/ABCWhyteInktrapMono-RegularItalic-Trial.woff2);
+}
+@font-face {
+  font-family: "ABC Whyte Inktrap Variable";
+  src: local(" "), url(assets/ABCWhyteInktrapVariable-Trial.ttf),
+    url(assets/ABCWhyteInktrapVariable-Trial.woff),
+    url(assets/ABCWhyteInktrapVariable-Trial.woff2);
+}
+
+* {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0px;
+  padding: 20px;
+  text-align: justify;
+}
+
+header {
+  font-family: "ABC Whyte Inktrap Mono Trial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fefefe;
+}
+
+header .quote {
+  color: #ffffff;
+  font-family: "ABC Whyte Inktrap Variable";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: right;
+}
+
+div span {
+  font-family: "ABC Whyte Inktrap Variable";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  color: #fefefe;
+  line-height: 35px;
+}
+
+div {
+  font-family: "ABC Whyte Inktrap Mono Trial";
+  font-style: normal;
+  font-size: 20px;
+}
+
+.break-line {
+  padding-left: 40px;
+}
+footer {
+  font-family: "ABC Whyte Inktrap Mono Trial";
+  font-style: normal;
+  font-weight: 400;
+  color: #fefefe;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  position: absolute;
+}
+
+.img-container {
+  float: right;
+}
+
+.img-container a {
+  margin-left: 5px;
+}

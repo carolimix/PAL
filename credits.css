@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "ABC Whyte Inktrap Mono Trial";
+  src: local(" "), url(assets/ABCWhyteInktrapMono-Regular-Trial.woff),
+    url(assets/ABCWhyteInktrapMono-Regular-Trial.woff2),
+    url(assets/ABCWhyteInktrapMono-RegularItalic-Trial.woff),
+    url(assets/ABCWhyteInktrapMono-RegularItalic-Trial.woff2);
+}
+
+@font-face {
+  font-family: "ABC Whyte Inktrap Variable";
+  src: local(" "), url(assets/ABCWhyteInktrapVariable-Trial.ttf),
+    url(assets/ABCWhyteInktrapVariable-Trial.woff),
+    url(assets/ABCWhyteInktrapVariable-Trial.woff2);
+}
+
+body {
+  font-family: "ABC Whyte Inktrap Variable";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0px;
+  padding: 30px;
+  text-align: justify;
+}
+
+p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
